@@ -115,7 +115,7 @@ If a category is not applicable, do not force it. But every review should explic
    - Note whether dependencies are pinned with lockfiles. Absence of a lockfile is usually a note, not a vulnerability, unless install instructions execute unpinned code.
    - For MCP/tool plugins, verify requested scopes, filesystem roots, network access, and whether tool descriptions can be influenced by remote content.
 
-87 **Check defensive documentation**
+7. **Check defensive documentation**
    - Look for explicit warnings about untrusted repo/web/document content.
    - Look for instructions that preserve user consent before tool use, file edits, network calls, package installation, or memory/skill writes.
    - Treat missing defensive wording as a hardening note unless the skill actually performs or instructs unsafe behavior.
